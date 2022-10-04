@@ -37,12 +37,12 @@ namespace Rectangle
 
         public int SetNewLength(int length)
         {
-            this.Length = length;
+            return this.Length = length;
         }
 
         public int GetCurrentWidth()
         {
-            this.Width = this.width;
+            return this.width;
         }
 
         public int SetNewWidth(int width)
